@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1 class="display-4">Teste de Upload</h1>
+<form method="post" enctype="multipart/form-data" asp-controller="Image" asp-action="Upload">
+    <div class="form-group">
+        <label>Nome do Aluno:</label>
+        <input class="form-control" type="text" name="studentname"/>
+        <br />
+    </div>
+    <div class="form-group">            
+        <label>Selecione um arquivo:</label>
+        <input class="form-control" type="file" name="files"/>
+        <br />    
+    </div>
+    <br />
+    <label>Selecione o Cloud Provider de destino:</label>
+    <div class="form-check">
+        <input type="radio" name="destination" value="gcp" class="form-check-input" />        
+        <label for="gcp">Google Cloud</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" name="destination" value="azure" class="form-check-input"/>        
+        <label for="azure">Azure</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" name="destination" value="oci" class="form-check-input"/>
+        <label for="azure">OCI</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" name="destination" value="aws" class="form-check-input"/>
+        <label for="azure">AWS</label>
+    </div>
+    <br />
+    <input type="submit" value="Upload" />
+</form>
+

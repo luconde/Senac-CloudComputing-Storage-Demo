@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Resultado do Upload";
+}
+<h1>@ViewData["Title"]</h1>
+
+@{
+    if(ViewBag.OK)
+    {
+<p>Realizado com sucesso !</p>
+<p>Nome do Arquivo: @ViewBag.FileName</p>
+<p>Tamanho: @ViewBag.Size</p>
+<p>Destino: @ViewBag.Destination</p>
+    }
+    else
+    {
+<p>Não ha nenhum arquivo !</p>
+    }
+}
