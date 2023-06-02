@@ -1,0 +1,35 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "AzureTable": {
+    "TableName": "files",
+    "ConnectionString": "<Insira o Connection String para o Azure Storage>"
+  },
+  "AzureBlob": {
+    "Repository": "<Insira aqui o nome do Azure Container>",
+    "ConnectionString": "<Insira o Connection String para o Azure Storage>"
+  },
+  "OCIBucket": {
+    "Repository": "<Insira aqui o nome do OCI Container>",
+    "UserId": "<Insira aqui OCI User Id>",
+    "Fingerprint": "<Insira aqui o OCI Fingerprint>",
+    "TenantId": "<Insira aqui o OCI TenantId>",
+    "PassPhrase": "<Insira aqui o OCI Passphrase>",
+    "RegionId": "<Insira aqui a OCI Region>",
+    "PrivateKeyFile": "<Insira aqui o nome do arquivo de chave privada>"
+  },
+  "GCPBucket": {
+    "Repository": "<Insira aqui o GCP Repository>",
+    "ConnectionString": "<Insira aqui o Connection String para o GCP Repository>"
+  },
+  "AWSContainer": {
+    "AccessKey": "<Insira aqui o AWS AccessKey>",
+    "Repository": "<Insira aqui o nome do AWS Repository>",
+    "SecretKey": "<Insira aqui o AWS SecretyKey>"
+  }
+}
