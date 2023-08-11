@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.S3" Version="3.7.8.12" />
-    <PackageReference Include="Azure.Data.Tables" Version="12.5.0" />
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.11.0" />
-    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.7.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.4" />
-    <PackageReference Include="OCI.DotNetSDK.Objectstorage" Version="34.1.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.201.12" />
+    <PackageReference Include="Azure.Data.Tables" Version="12.8.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.6.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+    <PackageReference Include="OCI.DotNetSDK.Objectstorage" Version="69.0.0" />
   </ItemGroup>
 
 </Project>

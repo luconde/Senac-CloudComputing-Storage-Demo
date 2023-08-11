@@ -6,26 +6,26 @@ Projeto construído para a disciplina **Cloud Computing e Internet das Coisas** 
 # Autor
 **Luciano Condé de Souza (luconde@gmail.com)**  
 **Data da criação do projeto**: 2022-05-26  
-**Data da última atualização**: 2023-06-02  
-**Versão**: 1.0.10
+**Data da última atualização**: 2023-08-11  
+**Versão**: 1.0.20
 
 ## Disclaimer
 O seguinte material foi construído a partir de referências publicadas na Internet, livros e artigos acadêmicos. As referências foram utilizadas de sites e posts na Internet, não há qualquer propósito de plagiar os autores, em caso de pedidos de adição do autor, pode encontrar em contato pelo email luconde@gmail.com. A simplificação de certos conteúdos tem o único propósito didático para facilitar o entendimento dos mesmos para os alunos.
 
 # Notas da versão 
-## Versão 1.0.10
-1. Pasta **scripts** para armazenamento dos scripts Powershell para administração do ambiente
-2. Pasta **src** para ter o código-fonte do projeto
-3. Movimentação do código-fonte para dentro da pasta **src**
-4. Atualização e ajustes do arquivo README.md
-5. Tagging para ter mais controle da evolução do código-fonte
-6. Criação do arquivo appsettings.json.template como modelo para funcionamento
+## Versão 1.0.20
+1. Publicação dos scripts Powershell para criação do repositório no Azure
+2. Publicação dos scripts Powershell para criação do repositório no AWS
+3. Publicação dos scripts Powershell para criação do repositório no GCP
+4. Publicação dos scripts Powershell para criação do repositório no OCI
+2. Atualização das bibliotecas do Nuget
 
 # Detalhes técnicos
 
 ## Funcionalidades
 1. Realiza o upload para os storages
 2. Lista os arquivos listados, os quais os registros foram armazenados em Azure Table
+3. Scripts em Powershell para criar os repositórios nos provedores de cloud
 
 ## Pré-requisitos
 1. Subscription Ativa do Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, Google Cloud
@@ -33,3 +33,5 @@ O seguinte material foi construído a partir de referências publicadas na Inter
 
 # Informações adicionais
 Utilize o arquivo appsettings.json.template para criar o próprio appsettings.json. Adicione as configurações de acesso para os serviços de storage dos provedores de nuvem. 
+
+Para utilização dos scripts é necessário a configuração das credenciais em cada serviço. 

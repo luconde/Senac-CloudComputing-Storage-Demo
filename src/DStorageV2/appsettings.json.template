@@ -28,8 +28,8 @@
     "ConnectionString": "<Insira aqui o Connection String para o GCP Repository>"
   },
   "AWSContainer": {
+    "Repository": "<Insira aqui o nome do AWS Repository>",    
     "AccessKey": "<Insira aqui o AWS AccessKey>",
-    "Repository": "<Insira aqui o nome do AWS Repository>",
     "SecretKey": "<Insira aqui o AWS SecretyKey>"
   }
 }
