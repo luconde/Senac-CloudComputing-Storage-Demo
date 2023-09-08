@@ -8,7 +8,7 @@
 	  <SatelliteResourceLanguages>none</SatelliteResourceLanguages>
 	  <Authors>Luciano Condé</Authors>
 	  <Copyright>© 2022 - Luciano Condé</Copyright>
-	  <Version>1.0.30</Version>
+	  <Version>1.0.31</Version>
 	  <Product>Demo de Storage Services</Product>
   </PropertyGroup>
 
@@ -19,6 +19,9 @@
     <PackageReference Include="Google.Cloud.Storage.V1" Version="4.6.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
     <PackageReference Include="OCI.DotNetSDK.Objectstorage" Version="69.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,10 @@
     }
   },
   "AllowedHosts": "*",
+  "Deploy": {
+    "Target": "NGINX",
+    "UsePathBase": "<Caso esteja utilizando NGINX, coloque a subdiretorio virtual onde a aplicação será executado>"
+  },
   "AzureTable": {
     "TableName": "files",
     "ConnectionString": "<Insira o Connection String para o Azure Storage>"
@@ -28,8 +32,8 @@
     "ConnectionString": "<Insira aqui o Connection String para o GCP Repository>"
   },
   "AWSContainer": {
-    "Repository": "<Insira aqui o nome do AWS Repository>",    
     "AccessKey": "<Insira aqui o AWS AccessKey>",
+    "Repository": "<Insira aqui o nome do AWS Repository>",
     "SecretKey": "<Insira aqui o AWS SecretyKey>"
   }
 }
