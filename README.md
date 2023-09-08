@@ -7,7 +7,7 @@ Projeto construído para a disciplina **Cloud Computing e Internet das Coisas** 
 **Luciano Condé de Souza (luconde@gmail.com)**  
 **Data da criação do projeto**: 2022-05-26  
 **Data da última atualização**: 2023-09-07  
-**Versão**: 1.0.30
+**Versão**: 1.0.31
 
 ## Disclaimer
 O seguinte material foi construído a partir de referências publicadas na Internet, livros e artigos acadêmicos. As referências foram utilizadas de sites e posts na Internet, não há qualquer propósito de plagiar os autores, em caso de pedidos de adição do autor, pode encontrar em contato pelo email luconde@gmail.com. A simplificação de certos conteúdos tem o único propósito didático para facilitar o entendimento dos mesmos para os alunos.
